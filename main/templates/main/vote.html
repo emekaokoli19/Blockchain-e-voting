@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<h1>{{hey}}</h1>
+<h1>NIGERIA 2023 PRESIDENTIAL ELECTION</h1>
+<hr class=""mt-0 mb-4>
+<h2>PETER OBI</h2>
+<button class="btn btn-success" type="submit" name="PETER" onclick=location.href='/button1'>Vote</button><br>
+<h2>YEMI OSINBAJO</h2>
+<button class="btn btn-success" type="submit" name="YEMI" onclick=location.href='/button2'>Vote</button><br>
+{% load static %}
+{% block javascript %}
+<script src="{% static 'index.js'%}"></script>
+{% endblock %}
+{% endblock %}

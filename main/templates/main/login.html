@@ -1,0 +1,9 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<h1>{{vote_id}}</h1>
+<form method="post" action="/login/">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit", name="save">Submit</button>
+</form>
+{% endblock %}
