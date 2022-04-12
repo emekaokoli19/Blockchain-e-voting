@@ -26,7 +26,7 @@ SECRET_KEY = 'c!(92(k!84=m#^))0w_4te9xe(^$$^*4vm4ix)t_1n3uq!@k$r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['12.0.0.1']
+ALLOWED_HOSTS = ['12.0.0.1', 'blockchain-e-voting-system.herokuapp.com']
 
 
 # Application definition
